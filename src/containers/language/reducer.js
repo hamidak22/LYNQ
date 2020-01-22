@@ -1,7 +1,7 @@
 import * as constants from './constants';
 
 const defaultState = {
-    lang: 'fa',
+    lang: 'en',
     langLoading: false,
 };
 

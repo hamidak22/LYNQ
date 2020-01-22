@@ -7,8 +7,8 @@ import Ajax from 'src/api/Ajax';
 import * as actions from './actions';
 import * as constants from './constants';
 
-function* getData(action) {
-    const {url} = action.payload;
+function* setCart(action) {
+    const { data } = action.payload;
     yield call(() => new Ajax({
         success: (response) => {
             const pizzaData = response.data.filter(
@@ -28,10 +28,10 @@ function* getData(action) {
         .send());
 }
 
-function* getDataSaga() {
-    yield takeEvery(constants.GET_DATA, getData);
+function* setCartSaga() {
+    yield takeEvery(constants.SET_CART, setCart);
 }
 
 export default [
-    getDataSaga(),
+    setCartSaga(),
 ];

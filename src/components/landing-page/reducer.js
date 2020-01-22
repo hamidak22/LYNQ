@@ -1,25 +1,15 @@
 import * as constants from './constants';
 
 const defaultState = {
-    lang: 'en',
-    langLoading: false,
+    data: [],
 };
 
-/*
- locale reducer to change language
- handleRtlCssFile is a function to add css file for changing rtl and ltr
- */
 export default function locale(state = defaultState, action = {}) {
     switch (action.type) {
-    case constants.SET_LOCALE:
+    case constants.SET_DATA:
         return {
             ...state,
-            lang: action.payload.lang,
-        };
-    case constants.SET_LOCALE_LOADING:
-        return {
-            ...state,
-            langLoading: action.payload.loading,
+            data: action.payload.data,
         };
     default:
         return state;

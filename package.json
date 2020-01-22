@@ -1,0 +1,152 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/react-fontawesome": "^0.0.20",
+    "@sentry/browser": "^5.0.6",
+    "@types/react": "^16.4.6",
+    "@vxna/optimize-three-webpack-plugin": "0.0.3",
+    "ant-design-pro": "^2.1.1",
+    "antd": "^3.16.1",
+    "antd-mobile": "^2.3.1",
+    "axios": "^0.18.0",
+    "babel-loader": "7",
+    "custom-react-scripts": "^0.2.2",
+    "dotenv": "^6.2.0",
+    "formik": "^0.11.11",
+    "history": "4.7.2",
+    "immutability-helper": "^2.7.0",
+    "json-merge-loader": "^1.1.0",
+    "less-vars-to-js": "^1.3.0",
+    "lodash": "^4.17.11",
+    "merge": "^1.2.0",
+    "moment": "^2.24.0",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.6.2",
+    "rc-queue-anim": "^1.6.12",
+    "rc-tween-one": "^2.4.1",
+    "react": "^16.10.2",
+    "react-animate-height": "^2.0.8",
+    "react-collapse": "^4.0.3",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-countdown-now": "^1.3.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.3.2",
+    "react-dropzone-component": "^3.2.0",
+    "react-fine-uploader": "^1.1.1",
+    "react-google-maps": "^9.4.5",
+    "react-google-recaptcha": "^1.0.0",
+    "react-helmet": "^5.2.0",
+    "react-id-swiper": "^1.6.8",
+    "react-intl": "^2.4.0",
+    "react-lazyload": "^2.6.2",
+    "react-loadable": "^5.5.0",
+    "react-moment": "^0.8.4",
+    "react-motion": "^0.5.2",
+    "react-number-format": "^3.4.2",
+    "react-perfect-scrollbar": "^1.4.4",
+    "react-pose": "^1.6.4",
+    "react-recaptcha": "^2.3.8",
+    "react-rectangle-popup-menu": "^0.0.1",
+    "react-redux": "5.0.5",
+    "react-responsive": "^4.1.0",
+    "react-router-dom": "4.2.2",
+    "react-simple-dropdown": "^3.2.0",
+    "react-slidedown": "^1.3.0",
+    "react-tabs": "^2.2.2",
+    "react-toggle": "^4.0.2",
+    "react-toggle-button": "^2.2.0",
+    "react-tooltip": "^3.9.0",
+    "reactjs-popup": "^1.1.1",
+    "recharts": "^1.4.2",
+    "redux": "3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "1.2.3",
+    "redux-persist": "^5.9.1",
+    "redux-saga": "^0.16.0",
+    "script-ext-html-webpack-plugin": "^2.1.3",
+    "styled-components": "^4.0.3",
+    "sync-request": "^6.0.0",
+    "three": "^0.98.0",
+    "yup": "^0.24.1"
+  },
+  "scripts": {
+    "start": "node scripts/start.js",
+    "eject": "node scripts/eject.js",
+    "build": "node scripts/build.js",
+    "test": "karma start karma.conf.js",
+    "lint": "eslint ./src --fix"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/preset-env": "^7.4.2",
+    "babel-plugin-import": "^1.11.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-styled-components-config": "0.0.2",
+    "expect": "^1.14.0",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-coverage": "^1.1.2",
+    "karma-mocha": "^0.2.2",
+    "karma-mocha-reporter": "^2.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
+    "node-sass": "^4.11.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-alice-carousel": "^1.13.3",
+    "react-intl-cra": "^0.3.3",
+    "react-intl-translations-manager": "^5.0.3",
+    "react-test-utils": "0.0.1",
+    "sass-loader": "^7.1.0",
+    "sinon": "^6.3.4",
+    "webpack-bundle-analyzer": "^3.1.0"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "rules": {
+      "jsx-a11y/href-no-hash": "off",
+      "react/jsx-boolean-value": [
+        "error",
+        "never",
+        {
+          "always": []
+        }
+      ],
+      "indent": [
+        "error",
+        4
+      ],
+      "react/jsx-indent": [
+        "error",
+        4
+      ],
+      "react/jsx-indent-props": [
+        "error",
+        4
+      ],
+      "linebreak-style": 0,
+      "react/jsx-filename-extension": [
+        0
+      ]
+    }
+  }
+}

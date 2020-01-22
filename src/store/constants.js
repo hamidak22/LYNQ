@@ -1,0 +1,1 @@
+export const SET_LOGOUT_USER = 'SET_LOGOUT_USER';

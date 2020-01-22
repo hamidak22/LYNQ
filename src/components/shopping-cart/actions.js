@@ -1,15 +1,8 @@
 import * as constants from './constants';
 
-export const getData = (url) => ({
-    type: constants.GET_DATA,
+export const setCart = (url) => ({
+    type: constants.SET_CART,
     payload: {
         url,
-    },
-});
-
-export const setData = (data) => ({
-    type: constants.SET_DATA,
-    payload: {
-        data,
     },
 });

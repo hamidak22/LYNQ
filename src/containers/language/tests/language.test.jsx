@@ -29,7 +29,7 @@ describe('language switcher', () => {
 
 describe('actions', () => {
     it('should create set locale action', () => {
-        const lang = 'fa';
+        const lang = 'en';
         const expectedAction = {
             type: actionTypes.SET_LOCALE,
             payload: {

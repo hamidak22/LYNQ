@@ -18,22 +18,13 @@ export class LanguageSwitcher extends Component {
         const { lang, beDark } = this.props;
         return (
             <div className="language-switcher">
-                {lang === 'fa'
-                    ? (
+                (
                         <Tooltip placement="bottom" title={<div className="language">English</div>}>
                             <a className={beDark ? "beDark english" : null} onClick={() => this.changeLanguage('en')}>
                                 EN
                             </a>
                         </Tooltip>
                     )
-                    : (
-                        <Tooltip placement="bottom" title={<div className="language beDark">فارسی</div>}>
-                            <a className={beDark ? "beDark language" : "language"} onClick={() => this.changeLanguage('fa')}>
-                                فا
-                            </a>
-                        </Tooltip>
-                    )
-                }
             </div>
         );
     }

@@ -1,4 +1,7 @@
+// urls
+export const BEER_URL = 'beers';
+
 // action types
-export const CHANGE_LOCALE = 'CHANGE_LOCALE';
-export const SET_LOCALE = 'SET_LOCALE';
-export const SET_LOCALE_LOADING = 'SET_LOCALE_LOADING';
+export const GET_DATA = 'GET_DATA';
+export const SET_DATA = 'SET_DATA';
+export const SET_CART = 'SET_CART';

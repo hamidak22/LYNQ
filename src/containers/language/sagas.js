@@ -4,7 +4,6 @@ import {
 } from 'redux-saga/effects';
 import { delay } from 'redux-saga';
 import { store } from 'src/store/ConfigureStore';
-import { alert } from 'containers/alert/Alerts';
 import * as actions from './actions';
 import * as constants from './constants';
 
