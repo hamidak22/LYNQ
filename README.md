@@ -1,7 +1,6 @@
 # LYNQ
-![alt text](http://www.upsara.com/images/lhlv_logoorange.png)
----
-This is  project of LYNQ(http://tehran.irannsr.org/services/trade_unit/134523).
+
+This is LYNQ test project
 
 Below you will find some information on how to perform common tasks.
 
